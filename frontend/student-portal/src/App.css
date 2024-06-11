@@ -40,3 +40,11 @@
 .read-the-docs {
   color: #888;
 }
+
+label, p {
+  color: white;
+}
+
+h2 {
+  color:#ffffff;
+}
