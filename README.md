@@ -60,24 +60,17 @@ This project is a web-based student portal form that allows students to log in t
    npm install
    ```
 
-4. **Configure environment variables:**
-
-   Create a `.env` file in the `backend` directory and add the following:
-   ```env
-   PORT=5000
-   MONGO_URI=your_mongodb_uri
-   JWT_SECRET=your_jwt_secret
-   ```
-
-5. **Start the backend server:**
+4. **Start the backend server:**
    ```sh
    npm start
+   npm run dev
    ```
 
 6. **Start the frontend development server:**
    ```sh
    cd ../frontend
    npm start
+   npm run dev
    ```
 
 7. **Access the application:**
