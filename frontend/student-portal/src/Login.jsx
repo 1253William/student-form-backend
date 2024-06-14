@@ -29,14 +29,14 @@ const Login = () => {
                 <div className="col-md-12">
                     <h5 className="text-white"><Time/> Please Log In</h5>
                     <form onSubmit={handleSubmit}>
-                        <div mb-3>
-                           <label for="exampleInputEmail1" className="form-label">Email:</label>
+                        <div mb-3="true">
+                           <label htmlFor="exampleInputEmail1" className="form-label">Email:</label>
                            <input type="email" placeholder='Enter Email' className="form-control" name='email'
                                 id="InputEmail1" aria-describedby="emailHelp"
                               onChange={(e) => setEmail(e.target.value)} />
                         </div>
-                        <div mb-3>
-                           <label for="exampleInputEmail1" className="form-label">Password:</label>
+                        <div mb-3="true">
+                           <label htmlFor="InputPassword" className="form-label">Password:</label>
                            <input type="password" placeholder='Enter Password' className="form-control" name='userName'
                                 id="InputPassword" aria-describedby="emailHelp"
                               onChange={(e) => setPassword(e.target.value)} />
